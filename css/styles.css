@@ -1,6 +1,11 @@
 body {
   background: rgb(135,206,235);
-  background: linear-gradient(90deg, rgba(135,206,235,1) 0%, rgb(216, 220, 255) 84%) !important;
+  background: linear-gradient(90deg, rgba(135,206,235,1) 0%, rgb(182, 217, 231) 84%) !important;
+}
+
+.page-footer {
+  margin-top: 5%;
+  background: rgb(28, 169, 224);
 }
 
 .card-img-top {

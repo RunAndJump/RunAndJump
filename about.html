@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en"  style="height: 100% ">
     <head >
-        <title>Bootstrap 4 Layout</title>
+        <title>run and JUMP</title>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -10,35 +10,17 @@
     </head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <body class="testDiv" style="background: linear-gradient(180deg, rgba(135,206,235,1) 0%, rgba(255,255,255,1) 84%) !important; background-repeat: no-repeat; ">
-        
-        <script type="text/javascript">
-
-            // Get JSON from runandJUMP's Etsy page 
-            // and do something with it.
-            function getData(data) {
-                if (data.ok) {
-                    console.log(data.results);
-                    for (var i = 0; i < data.results.length; i++) {
-                        console.log(data.results[i].title);
-                    }
-                } else {
-                    alert(data.error);
-                }
-            }
-
-        </script>
-        <script src="https://openapi.etsy.com/v2/shops/shoprunandJUMP/listings/active.js?callback=getData&api_key=xbs1vo0yk21uhkqsj3qhyj8r&fields=title,url,price&limit=1&includes=MainImage"></script>
-
+    <body class="testDiv" style="background: linear-gradient(180deg, rgba(135,206,235,1) 0%, rgb(182, 217, 231) 84%) !important; background-repeat: no-repeat; ">
         
     <div>
         <div class="container">
+
                 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="index.html"><img src="assets/RunAndJump.png" style="height: 25px; width: auto;"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <!--Add here -->
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
@@ -57,7 +39,16 @@
                 <div class="row">
                     <div class="col-8">
                         <h1>About us!</h1>
-                            The inception of runandJUMP came about during an intense round of Super Mario Brothers Wii U. The concept is simple: Just run and jump before a member of your own party tries to throw you into Piranha plant. It quickly evolved into a two-person team creating limited edition, quality enamel pins for not only those embarking on their journey to saving the princess, but for those completing their pokedex, becoming Hokage, and more! Based in Orlando, we are just two anime, Nintendo, and Studio Ghibli enthusiasts with a passion for representing the things we love. We hope you enjoy our dorky heart-work!
+                            The inception of runandJUMP came about during an intense round 
+                            of Super Mario Brothers Wii U. The concept is simple: Just run
+                            and jump before a member of your own party tries to throw you
+                            into Piranha plant. It quickly evolved into a two-person team
+                            creating limited edition, quality enamel pins for not only 
+                            those embarking on their journey to saving the princess, but 
+                            for those completing their pokedex, becoming Hokage, and more!
+                            Based in Orlando, we are just two anime, Nintendo, and Studio 
+                            Ghibli enthusiasts with a passion for representing the things 
+                            we love. We hope you enjoy our dorky heart-work!
                     </div>
                     <div class="col-sm-12 col-md-3">
                         <div class="card">
@@ -78,6 +69,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </div>
     </body>
+
+<!-- Footer -->
 <footer class="page-footer font-small stylish-color-dark pt-4 text-center">
 
     <div class="container text-center">
@@ -112,8 +105,8 @@
                       </li>
                     </ul>
                 </div>
-                <div align="center" style="text-align: center">
-                    RunandJUMP! &copy; 2018 Copyright
+                <div style="text-align: center">
+                    runandJUMP &copy; 2018 Copyright
                 </div>
     </div>
 </footer>
