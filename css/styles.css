@@ -30,7 +30,7 @@ body {
   animation:fadein 1s;
   /* box-shadow:0px 0px 0px 7px rgb(155, 161, 252); */
   /* box-shadow:10px 10px 13px #766dfd8a; */
-  border:6px solid rgb(155, 161, 252);
+  border:6px solid #9ba1fc;
 }
 
 .btn-secondary {
