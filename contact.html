@@ -5,12 +5,13 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+
         <script type="text/javascript">
+
+            // Reveal hidden 'sent' notification
             function showHide() 
-            {   
+            {
                var div = document.getElementById('hiddendiv');
                if (div.style.display == 'none') {
                  div.style.display = '';
@@ -22,16 +23,12 @@
              }
 
         </script>
+
     </head>
-    <div style="background: linear-gradient(180deg, rgba(135,206,235,1) 0%, rgb(182, 217, 231) 84%) !important; background-repeat: no-repeat background; ">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <body>
         
-        <div class="container">
-                <div class="row">
-                    
-                </div>
-        </div>
         <div class="container">
                 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="index.html"><img src="assets/RunAndJump.png" style="height: 25px; width: auto;"></a>
@@ -54,39 +51,53 @@
                     </div>
                 </nav>
 
-                <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbw0NcZ5kh2AqW-QnMFqj0iOd3zzi_6jWUS3nsK1dOflRU7AiwML/exec" onsubmit="showHide(); return false">
-                    <h1>Contact us!</h1>
-                    <h3>Comments, concerns? We'd love to hear from you!</h3>
-                    <div id ="hiddendiv"class="alert alert-success" role="alert" style="display:none">
-                          <strong>Awesome Sauce!</strong> Response Successfully recorded! 
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                    </div>
-                    <div class="form-group">
-                        <label>Name</label>
-                        <input name="Name" type="name" class="form-control" id="text_input" placeholder="John/Jane Doe">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input name="Email" type="email" class="form-control" id="text_input" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Comments</label>
-                        <textarea name="Desription" class="form-control" id="text_input" rows="10"></textarea>
-                    </div>
-                    <input type="submit" value="Send">
-                    <input type="reset" value="Reset" >
-                    </form>
+                    <!-- Header -->
+                    <div class="contact-header">Comments, concerns? We'd love to hear from you!</div>
+
+                    <!-- Google contact form -->
+                    <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbw0NcZ5kh2AqW-QnMFqj0iOd3zzi_6jWUS3nsK1dOflRU7AiwML/exec" onsubmit="showHide(); return false" style="font-family:Arial Rounded MT Bold;">
+                        <div id ="hiddendiv"class="alert alert-success" role="alert" style="display:none">
+                            <strong>Awesome Sauce!</strong> Response Successfully recorded! 
+                            <!-- <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button> -->
+                        </div>
+
+
+                        <div class="row" style="margin-top:5%">
+                            <div class="form-group col-md">
+                                <label>Name</label>
+                                <input name="Name" type="name" class="form-control" id="text_input" placeholder="*Shigeru Miyamoto" style="width: 100%;">
+                            </div>
+                            <div class="form-group col-md">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input name="Email" type="email" class="form-control" id="text_input" placeholder="*wario@example.com" style="width: 100%;">
+                            </div>
+                        </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea name="Desription" class="form-control" id="text_input" rows="10"></textarea>
+                            </div>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+
+                        </form>
+
+                        <!-- Wario image -->
+                        <a href="http://nintendo.wikia.com/wiki/Wario" target="_blank"><img src="assets/wario.png" alt="wario from super mario bros." style="width:100%;"></a>
+
+
+
             </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
     </body>
     </div>
-    <footer class="page-footer font-small stylish-color-dark pt-4 text-center">
 
+    <!-- Footer area -->
+    <footer class="page-footer font-small stylish-color-dark pt-4 text-center">
     <div class="container text-center">
 
             <hr class=" w-100 ">
