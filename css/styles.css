@@ -18,6 +18,10 @@ body {
   height:300px;
   object-fit:cover;
 }
+.facebook {
+  background: #3B5998;
+  color: white;
+}
 
 .card-deck {
   margin-top:5%;
