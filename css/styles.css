@@ -1,6 +1,7 @@
 body {
-  background:rgb(135,206,235);
+  background-image: linear-gradient(to top, #ffffff, #edf0fc, #d2e3fa, #b0d8f5, #87ceeb);
   background-repeat:no-repeat;
+  height:100%;
 }
 
 .page-footer {
@@ -73,6 +74,9 @@ body {
   margin-top:5%;
   font-family:"Arial Rounded MT Bold";
   font-size:3vw;
+}
+.page-footer {
+  background: #87CEEB;
 }
 
 input {
